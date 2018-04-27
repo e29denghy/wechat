@@ -7,18 +7,18 @@
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
-      <div class="carousel-item active">
-        <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>《高效沟通》内训课程</h1>
-            <p>高效沟通十分重要！与企业团队的领导力、执行力、凝聚力等都密切相关，</p>
-            <p>邓宏伟老师的《高效沟通》内训课程能够及时有效地解除您的烦恼……</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>《高效沟通》内训课程</h1>
+              <p>高效沟通十分重要！与企业团队的领导力、执行力、凝聚力等都密切相关，</p>
+              <p>邓宏伟老师的《高效沟通》内训课程能够及时有效地解除您的烦恼……</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="carousel-inner">
         <div class="carousel-item">
           <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
           <div class="container">
