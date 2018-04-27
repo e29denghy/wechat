@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="/static/bootstrap/favicon.ico">
-    <title>@yield('title', 'BLOG') - 鹏聚文化</title>
+    <title>@yield('title', '中国') - 鹏聚文化</title>
     <!-- Bootstrap core CSS -->
     <link href="/static/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/static/index/css/command.css" />
