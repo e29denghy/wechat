@@ -13,7 +13,9 @@
 
 Route::get('/', 'StaticPagesController@home')->name('home');
 
-Route::get('/course', 'IndexController@course')->name('course');
+Route::get('/course/com', 'IndexController@com')->name('com');
+
+Route::get('/course/sun', 'IndexController@sun')->name('sun');
 
 Route::any('/wechat', 'WeChatController@serve');
 

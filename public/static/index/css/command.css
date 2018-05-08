@@ -76,12 +76,100 @@ body {
 	}
 }
 
+.font_30{
+	font-size: 30px;
+}
+
+.let_3{
+	letter-spacing:3px;
+}
+
+.font_36{
+	font-size: 36px;
+}
+
+.font_48{
+	font-size: 48px;
+}
+
+.font_60{
+	font-size: 60px;
+}
+
+.font_72{
+	font-size: 72px;
+}
+
 .margin-80{
 	margin-top: -80px;
 }
 
 .margin-50{
 	margin-top: -50px;
+}
+
+.pdr_0{
+	padding-right: 0;
+}
+
+.mb_20{
+	margin-bottom: 20px;
+}
+
+.mb_40{
+	margin-bottom: 40px;
+}
+
+.mt_10{
+	margin-top: 10px;
+}
+
+.mt_20{
+	margin-top: 20px;
+}
+
+.mt_30{
+	margin-top: 30px;
+}
+
+.mt_40{
+	margin-top: 40px;
+}
+
+.mt_60{
+	margin-top: 60px;
+}
+
+.mt_100{
+	margin-top: 100px;
+}
+
+.mr_20{
+	margin-right: 20px;
+}
+
+.mr_30{
+	margin-right: 30px;
+}
+
+.mr_40{
+	margin-right: 40px;
+}
+
+.ml_20{
+	margin-left: 20px;
+}
+
+.ml_40{
+	margin-left: 40px;
+}
+
+.ml_100{
+	margin-left: 100px;
+}
+
+.ml_200{
+	margin-left: 200px;
 }
 
 /* Responsive: Portrait tablets and up */
