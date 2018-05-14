@@ -9,6 +9,8 @@
 @section('content')
 <div class="container marketing">
   <div class="featurette-header text-center">
+      <br>
+      <br>
       <h1>{{ $data['title'] }}</h1>
   </div>
   <hr class="featurette-divider">

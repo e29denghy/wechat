@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Mobile_Detect;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -14,6 +15,16 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //
+        //视图间共享数据
+        $detect = new Mobile_Detect();
+        $is_mobile = $detect->isMobile();
+        if($is_mobile){
+          $is_mobile = 'mobile';
+        }
+        else{
+          $is_mobile = 'pc';
+        }
+       view()->share("mobile_device",$is_mobile);
     }
 
     /**

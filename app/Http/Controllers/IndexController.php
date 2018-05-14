@@ -4,26 +4,18 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Course;
-use Mobile_Detect;
+
 
 class IndexController extends Controller
 {
     //
     public function com()
     {
-        $detect = new Mobile_Detect();
-        $is_mobile = $detect->isMobile();
-        if($is_mobile){
-          $is_mobile = 'mobile';
-        }
-        else{
-          $is_mobile = 'pc';
-        }
         $course = new Course;
         $data = $course->courseData('com');
         $title = $data['title'];
         $subtitle = $data['subtitle'];
-        return view('course.high_effect_com',["page_id"=>"course","data"=>$data,"mobile_device"=>$is_mobile]);
+        return view('course.high_effect_com',["page_id"=>"course","data"=>$data]);
     }
 
     public function sun(){

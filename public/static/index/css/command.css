@@ -100,7 +100,7 @@ body {
 }
 
 .top_container {
-   padding-top: 154px;
+   padding-top: 100px;
 }
 .bottom_container {
   padding-bottom: 70px;
@@ -147,6 +147,10 @@ body {
 
 .margin-50{
 	margin-top: -50px;
+}
+
+.margin-60{
+	margin-top: -60px;
 }
 
 .margin-20{
