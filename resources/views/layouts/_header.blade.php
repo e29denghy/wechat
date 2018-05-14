@@ -62,3 +62,16 @@
 	</nav>
 </div>
 <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script>
+ var is_mobile = "{{ $mobile_device }}";
+ if('mobile' == is_mobile){
+	$("#header_top").addClass("display_none");
+	$("#foot_{{$page_id}}").addClass("active");
+	//$("#foot_bottom").addClass("top_container");
+ }
+ else{
+	 $("#foot_bottom").addClass("display_none");
+	 //$("#header_top").addClass("bottom_container");
+	 $("#{{$page_id}}").addClass("active");
+ }
+</script>
