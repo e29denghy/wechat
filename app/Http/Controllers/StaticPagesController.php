@@ -9,7 +9,7 @@ class StaticPagesController extends Controller
     //
     public function home()
     {
-        return view('static_pages/home',["page_id"=>"home"]);
+        return view('static_pages/home',["page_id"=>"home","teacher"=>config('teacher.main')]);
     }
 
     public function help()

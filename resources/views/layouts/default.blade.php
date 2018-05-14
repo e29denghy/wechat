@@ -29,5 +29,24 @@
     <script src="/static/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="/static/bootstrap/assets/js/vendor/holder.min.js"></script>
+    <script>
+
+     //console.log({{ $mobile_device }};);
+     var is_mobile = "{{ $mobile_device }}";
+     if('mobile' == is_mobile){
+    	$("#header_top").addClass("display_none");
+      //$("main").addClass("bottom_container");
+      $("#footer_bottom").addClass("display_none");
+      $("#foot_{{$page_id}}").addClass("active");
+    	//var obj = document.getElementById("header_top");
+    	//obj.style.cssText = "display:none";
+    	//obj.setAttribute("class", "display_none");
+     }
+     else{
+    	 $("#foot_bottom").addClass("display_none");
+       $("main").addClass("top_container");
+       $("#{{$page_id}}").addClass("active");
+     }
+    </script>
   </body>
 </html>

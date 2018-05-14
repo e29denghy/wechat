@@ -15,7 +15,7 @@
           <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>《高效沟通》内训课程</h1>
+              <h1>《高效沟通》内训课程</h1><br>
               <p>高效沟通十分重要！与企业团队的领导力、执行力、凝聚力等都密切相关，</p>
               <p>邓宏伟老师的《高效沟通》内训课程能够及时有效地解除您的烦恼……</p>
               <p><a class="btn btn-lg btn-dark" href="/course/com" role="button">查看详情</a>
@@ -28,7 +28,7 @@
           <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>《阳光心态》内训课程</h1>
+              <h1>《阳光心态》内训课程</h1><br>
               <p>员工心态决定了团队状态，在很大程度上影响了企业团队的领导力、执行力、凝聚力和公司业绩，</p>
               <p>邓宏伟老师《阳光心态》内训课程能够及时有效地解除您的烦恼……</p>
               <p><a class="btn btn-lg btn-dark" href="/course/sun" role="button">查看详情</a>
@@ -40,10 +40,10 @@
         <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
         <div class="container">
           <div class="carousel-caption">
-            <h1>邓宏伟老师</h1>
-            <p>企业文化专家、阳光心态教练、高效沟通专家</p>
-            <p>深圳市鹏聚文化发展有限公司总经理</p>
-            <p>深圳市招赢天下文化传播有限公司首席讲师</p>
+            <h1>邓宏伟老师</h1><br>
+            <p>总裁智慧演说设计第一人、鹏聚天下商学院院长</p>
+            <p>企业文化讲师行业开创者、资深企业文化专家</p>
+            <p>深圳市鹏聚文化发展有限公司创始人、董事长</p>
             <p><a class="btn btn-lg btn-dark" href="#teacher" role="button">查看详情</a>
           </div>
         </div>
