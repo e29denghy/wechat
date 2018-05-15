@@ -77,6 +77,20 @@ body {
 }
 
 /* Custom, iPhone Retina */
+@media (min-width: 320px) {
+	main{
+		margin-top: -50px;
+	}
+ }
+
+ /* Custom, iPhone Retina */
+ @media (min-width: 480px) {
+ 	main{
+ 		margin-top: -50px;
+ 	}
+  }
+
+/* Custom, iPhone Retina */
 @media (min-width: 576px) {
 	main{
 		margin-top: -50px;

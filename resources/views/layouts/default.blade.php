@@ -15,20 +15,16 @@
   </head>
   <body>
     <main role="main">
-        @if("mobile"=={{$mobile_device}}){
+        @if("mobile"==$mobile_device)
           @include('layouts._header_bottom')
-        }
-        else{
+        @else
           @include('layouts._header')
-        }
+        @endif
         @include('shared._messages')
         @yield('content')
-        @if("mobile"=={{$mobile_device}}){
-
-        }
-        else{
+        @if("pc"==$mobile_device)
           @include('layouts._footer')
-        }
+        @endif
     </main>
     <!-- Bootstrap core JavaScript
     ================================================== -->
