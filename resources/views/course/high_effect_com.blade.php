@@ -137,6 +137,5 @@
       </div>
     </div>
   </div>
-  <hr class="featurette-divider">
 </div>
 @stop

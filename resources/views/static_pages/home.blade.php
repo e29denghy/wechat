@@ -58,7 +58,6 @@
     </a>
   </div>
 
-
   <!-- Marketing messaging and featurettes
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
@@ -86,7 +85,6 @@
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
-
     <!-- START THE FEATURETTES -->
 
     <hr class="featurette-divider">
@@ -112,7 +110,6 @@
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
         <div class="margin-80"><h2 class="featurette-heading">《阳光心态》 <span class="text-muted">内训课程</span></h2></div>
-
         <p class="lead"><br>☆ 帮助员工树立正确的职业心态，引导其培养良好的职业行为习惯；<br>
           ☆ 转变员工的工作观念，以主人翁的心态面对工作；<br>
           ☆ 改变员工消极被动的工作态度，培养积极、付出的工作精神；<br>
@@ -131,10 +128,9 @@
     </div>
 
     <hr class="featurette-divider">
-
     <div class="row featurette" id="teacher">
       <div class="col-md-7">
-        <div class="margin-80"><h2 class="featurette-heading">邓宏伟<span class="text-muted">老师介绍</span></h2></div>
+        <div class="text-center"><h2 class="featurette-heading">邓宏伟<span class="text-muted">老师介绍</span></h2></div>
         <p class="lead"><br>邓老师1998年毕业于山东大学经济学院经济学系，拥有十多年知名企业的文化建设工作经验和七年培训咨询工作经验，任职和服务过的上市公司和知名企业包括：海能达(002583)、富安娜(002327)、华孚时尚(002042)、爱施德(002416)、神州通集团、丽斯达、天玺国际、瑞捷咨询、利达旺电梯、某集团37.5℃运营中心、等候科技、泰天恒集团、正雄鞋材、建顺包材、国乐飘香、番茄假期、桑菲通信、中创软件、得安科技、正一道场、青青宝贝、都市物流等。</p>
         <p class="lead">邓老师主讲的《高效沟通》、《阳光心态》等深度体验式课程，把情景模拟、教练技术、演讲口才训练方法等完美融入其中，积极倡导和落实“快乐学习”、“快速学习”的理念，从职场的多种场景和学员的实战演练出发，按照“问题导向”和“目标导向”的原则，为企业客户精心设计针对性、实战性、系统性很强的特色培训方案，并现场进行精彩演绎，众多的企业领导和广大学员一致给予高度评价。</p>
       </div>
@@ -142,9 +138,6 @@
         <img class="featurette-image img-fluid mx-auto" src="/static/image/leader.png" alt="Generic placeholder image">
       </div>
     </div>
-
-    <hr class="featurette-divider">
-
     <!-- /END THE FEATURETTES -->
 
   </div><!-- /.container -->
