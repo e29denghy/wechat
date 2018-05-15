@@ -14,11 +14,21 @@
     <link href="/static/index/css/carousel.css" rel="stylesheet">
   </head>
   <body>
-    @include('layouts._header')
     <main role="main">
+        @if("mobile"=={{$mobile_device}}){
+          @include('layouts._header_bottom')
+        }
+        else{
+          @include('layouts._header')
+        }
         @include('shared._messages')
         @yield('content')
-        @include('layouts._footer')
+        @if("mobile"=={{$mobile_device}}){
+
+        }
+        else{
+          @include('layouts._footer')
+        }
     </main>
     <!-- Bootstrap core JavaScript
     ================================================== -->
