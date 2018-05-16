@@ -59,10 +59,14 @@ return [
      */
     'official_account' => [
         'default' => [
-            'app_id' => env('WECHAT_OFFICIAL_ACCOUNT_APPID', 'wx819d3387e41e255d'),         // AppID
-            'secret' => env('WECHAT_OFFICIAL_ACCOUNT_SECRET', '1db7096ac25e37ae4c4f5877c2f32c9b'),    // AppSecret
-            'token' => env('WECHAT_OFFICIAL_ACCOUNT_TOKEN', 'pengjuculture'),           // Token
-            'aes_key' => env('WECHAT_OFFICIAL_ACCOUNT_AES_KEY', 'BPvblia71kTL4Hgrq61tjZedQoSFBNfLO7XQzoKueAZ'),                 // EncodingAESKey
+          'app_id' => 'wx819d3387e41e255d',         // AppID
+          'secret' => '1db7096ac25e37ae4c4f5877c2f32c9b',    // AppSecret
+          'token' => 'pengjuculture',           // Token
+          'aes_key' =>'BPvblia71kTL4Hgrq61tjZedQoSFBNfLO7XQzoKueAZ',                 // EncodingAESKey
+            //'app_id' => env('WECHAT_OFFICIAL_ACCOUNT_APPID', 'wx819d3387e41e255d'),         // AppID
+            //'secret' => env('WECHAT_OFFICIAL_ACCOUNT_SECRET', '1db7096ac25e37ae4c4f5877c2f32c9b'),    // AppSecret
+            //'token' => env('WECHAT_OFFICIAL_ACCOUNT_TOKEN', 'pengjuculture'),           // Token
+            //'aes_key' => env('WECHAT_OFFICIAL_ACCOUNT_AES_KEY', 'BPvblia71kTL4Hgrq61tjZedQoSFBNfLO7XQzoKueAZ'),                 // EncodingAESKey
 
             /*
              * OAuth 配置
@@ -70,7 +74,7 @@ return [
              * scopes：公众平台（snsapi_userinfo / snsapi_base），开放平台：snsapi_login
              * callback：OAuth授权完成后的回调页地址(如果使用中间件，则随便填写。。。)
              */
-             'oauth' => [
+            'oauth' => [
                'scopes'   => ['snsapi_userinfo'],
                'callback' => '/wechat/oauth_callback',
             ],
