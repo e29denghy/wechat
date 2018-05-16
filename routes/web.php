@@ -19,6 +19,8 @@ Route::get('/course/sun', 'IndexController@sun')->name('sun');
 
 Route::any('/wechat', 'WeChatController@serve');
 
+Route::post('/wechat/authback', 'WeChatController@authback')->name('authback');
+
 Route::get('/help', 'StaticPagesController@help')->name('help');
 Route::get('/about', 'StaticPagesController@about')->name('about');
 Route::get('login', 'SessionsController@create')->name('login');

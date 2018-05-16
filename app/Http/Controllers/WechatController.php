@@ -20,9 +20,13 @@ class WechatController extends Controller
 
         $app = app('wechat.official_account');
         $app->server->push(function($message){
-            return "欢迎关注 招赢天下文化！";
+            return "欢迎关注 鹏聚天下！";
         });
 
         return $app->server->serve();
+    }
+
+    public function authback(){
+       $app = app('wechat.official_account');
     }
 }
